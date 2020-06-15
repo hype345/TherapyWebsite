@@ -11,7 +11,7 @@ app.set('views', path.join(__dirname, './views/ejs'));
 
 // Set the folder for css, java scripts and images
 app.use(express.static(path.join(__dirname,'./public/css')));
-app.use(express.static(path.join(__dirname, './public/assets/images')));
+app.use(express.static(path.join(__dirname, 'images')));
 app.use(express.static(path.join(__dirname, './public/javascripts')));
 
 
