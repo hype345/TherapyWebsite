@@ -24,7 +24,6 @@ app.set('view engine', 'ejs');
 
 myPort = process.env.PORT || 3000;
 
-//connects to mongo
 const run = async () => {
   
   app.use('/', routes); 
