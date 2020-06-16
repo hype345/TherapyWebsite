@@ -36,7 +36,7 @@
 }
 
 .navigation a:last-child {
-    padding-right: 0;
+    padding-right: 10;
 }
 
 .navigation a li {
