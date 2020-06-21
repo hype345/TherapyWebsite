@@ -176,3 +176,74 @@
     display:flex;
     justify-content: center;
 }
+
+.email-info{
+    margin-top: 5%;
+}
+
+.descriptionAndForm-container
+{
+    margin-top: 3%;
+    display: flex;
+}
+
+.necessary-forms
+{
+    margin-top: 5%;
+}
+
+.form-link {
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.form-link:link, .form-link:visited {
+    color: black;
+    font-style: italic;
+}
+
+.form-link:hover{
+    color: blueviolet;
+}
+
+.email-form{
+    margin-left: 190px;
+}
+
+.email-description{
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.form-control{
+    width: 300px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+}
+
+::placeholder { 
+    color: black;
+    opacity: 1; 
+  }
+
+.submit{
+color: black;
+}
+
+.text-area{
+    resize: vertical;
+    width: 300px;
+    min-height: 80px;
+    border: 1px solid black;
+    background: transparent;
+}
+
+.email-fineprint
+{
+    font-size: small;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+}
+

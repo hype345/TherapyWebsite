@@ -6,7 +6,69 @@
         <%- include ('./partials/background') %>
         <div class="edges"></div>
         <div class="mid">
-            <%- include ('./partials/header') %>
+            <%- include ('./partials/header') %> 
+            <div class="phone-info center">
+                <h1>Call Us</h1>
+                <br>
+                <p1>Call Majbritt (Pronounced Mybrit) Jensen (443) 695-0582</p1>
+            </div>
+            <div class="email-info">
+                <h1 class="center"> Email Us</h1>
+            <div class="descriptionAndForm-container">
+                <div class="email-form">
+                    <form method="POST" action="/emailsend">
+                     <p>
+                       <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                     </p>
+                     <br>
+                     <p>
+                       <input type="text" name="email" class="form-control" placeholder="Your Email" required>
+                     </p>
+                     <br>
+                     <p>
+                      <input type="text" name="phone" class="form-control" placeholder="Your Phone Number" required>
+                    </p>
+                    <br>
+                     <p>
+                       <input type="text" name="subject" rows="2" class="form-control" placeholder="Subject" required></input>
+                     </p>
+                     <br>
+                     <p>
+                       <textarea type="text" name="message" rows="4" class="text-area" placeholder="Message" required></textarea>
+                     </p>
+                     <br>
+                     <p>
+                       <button type="submit" class="form-control submit">Submit</button>
+                     </p>
+                   </form>
+                  </div>
+                <div class="email-description">
+                <p>Ask about video or phone sessions.</p>
+                <br>
+                <p>Our therapists can be flexible to meet your needs in this time and are here to help you. Don't be shy.</p>
+                <br>
+                <p>Feel free to ask for what you want... an appointment, a consultation or simply a response to a question. Keep it short, 200 words or less, this is just an initial contact.</p>
+                <br>
+                <p>Remember to double check your return email address or your phone number if you prefer to be called.</p>
+                </div>
+                </div>
+                <div class="email-fineprint center">
+                 <p1>Please be aware that email is not a secure means of communication. The therapist should respond to you by email, although we recommend that you follow up with a phone call.</p1>
+                 <br>
+                 <br>
+                 <p>Sending an email using this page does not guarantee that the recipient will receive, read or respond to your email.</p>
+                 <br>
+                 <p1>If this is an emergency do not use this form. Call 911 or your nearest hospital.</p1>
+                </div>
+               </div>
+               <div class="necessary-forms center">
+                    <h1>Necessary Forms</h1>
+                    <br>
+                    <a class="form-link" href="welcome.pdf" target="blank">Welcome Letter</a>
+                    <a class="form-link" href="biopsychosocial_intake.pdf" target="blank">Biopsychosocial Intake</a>
+                    <a class="form-link" href="consent.pdf" target="blank">Consent Polocies</a>
+                    <a class="form-link" href="HIPAA.pdf" target="blank">HIPAA</a>
+               </div>
         </div>
         <div class="edges"></div>
     </div>
