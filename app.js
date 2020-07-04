@@ -53,7 +53,7 @@ var transporter = nodemailer.createTransport({
 app.post('/emailsend', urlencodedParser, (req, res) => {
   var mailOptions = {
     from: 'cocminioncoc@gmail.com', //add deafult email that is not mine
-    to: 'cshriver@friendsbalt.org', //add undercrofts email when ready for deployment
+    to: 'mjensencounseling@gmail.com', 
     cc: req.body.email,
     subject: req.body.subject,
     text: req.body.message + "\n" + "\n" + "from," + "\n" + req.body.name + "\n" + "Phone Number: " + req.body.phone
